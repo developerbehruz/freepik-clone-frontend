@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freepik</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-page">
+        <div class="container">
+            <!-- Navbar start -->
+            <div class="row">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/images/logo.png" alt="logo">
+                        </a>
+                        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-current="page" href="#">Vectors</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Photos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Videos <span
+                                                class="badge bg-success">New</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">PSD</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">3D</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Fonts</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white mt-2" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Categories
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Collections</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white mt-2" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            More
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-current="page" href="#">Sell content</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-warning" aria-current="page" href="#">Pricing</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex mt-3 navbar-btns" role="search">
+                                    <button class="btn text-white mb-2">Log in</button>
+                                    <button class="btn btn-outline-light mb-2">Sign up</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar end -->
+
+            <div class="row d-flex justify-content-center">
+                <div class="main-page-form">
+                    <h2 class="text-center text-white">All the assets you need, in one place</h2>
+                    <p class="text-center text-white fs-5">Find and download the best high-quality photos, vectors,
+                        videos,
+                        and mockups</p>
+                    <div class="input-group search-input">
+                        <button
+                            class="btn main-page-input-drop btn-outline-secondary dropdown-toggle text-dark bg-white px-4"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            style="color: #839AAD !important;"><i class="fa-sharp fa-solid fa-fire"></i> Assets</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action before</a></li>
+                            <li><a class="dropdown-item" href="#">Another action before</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                        <input type="text" class="form-control main-page-input 2 dropdown buttons"
+                            placeholder="Search all assets">
+                        <button class="btn btn-light"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="input-bottom">
+                        <div class="recent"><i class="fa-solid fa-magnifying-glass"></i> Logo mockup</div>
+                        <div class="recent"><i class="fa-solid fa-magnifying-glass"></i> Bussiness card mockup</div>
+                        <div class="recent"><i class="fa-solid fa-magnifying-glass"></i> Whatsapp Icon</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main pictures start -->
+
+            <div class="row homepage-imgs d-flex justify-content-evenly mt-5">
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center align-items-center flex-column mb-5">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/_23-2149824949.jpg?size=240&ext=jpg" alt="">
+                    </div>
+                    <span class="text-white">Vectors</span>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center align-items-center flex-column mb-5">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/_23-2149550628.jpg?size=240&ext=jpg" alt="">
+                    </div>
+                    <span class="text-white">Photos</span>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center align-items-center flex-column mb-5">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/_23-2149374157.jpg?size=240&ext=jpg" alt="">
+                    </div>
+                    <span class="text-white">Videos <span class="badge bg-success">New</span></span>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center align-items-center flex-column mb-5">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/_23-2149677318.jpg?size=240&ext=jpg" alt="">
+                    </div>
+                    <span class="text-white">Template</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-page" style="background: #F8FAFB;">
+        <div class="container">
+            <div class="row page-title">
+                <h2 class="text-center"><span class="blue-text">Explore</span> trending categories on Freepik</h2>
+                <p class="text-center mt-1">Check what’s popular on Freepik and make your project look trendy and
+                    professional.</p>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 gallery-card" style="margin-top: 30px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alleppey_beach.jpg/1200px-Alleppey_beach.jpg"
+                            width="100%">
+                        <span>Beach videos</span>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mt-3">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-6 mt-3 gallery-card">
+                                <img src="https://img.freepik.com/free-vector/hand-drawn-background-earth-day-celebration_52683-108417.jpg?size=626&ext=jpg"
+                                    alt="">
+                                <span>Earth Day inspiration</span>
+                            </div>
+                            <div class="col-sm-6 col-lg-6 mt-3 gallery-card">
+                                <img src="https://img.freepik.com/premium-photo/office-worker-running-loop-hamster-wheel-business-rat-race-concept-3d-rendering_601748-44288.jpg?size=626&ext=jpg"
+                                    alt="">
+                                <span>Finance</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-6 mt-3 gallery-card">
+                                <img src="https://img.freepik.com/premium-photo/paper-cut-illustration-mosque-orange-green_567739-947.jpg?size=626&ext=jpg"
+                                    alt="">
+                                <span>Mosque</span>
+                            </div>
+                            <div class="col-sm-6 col-lg-6 mt-3 gallery-card">
+                                <img src="https://v3.cdnpk.net/videvo_files/video/premium/video0233/thumbnails/02_Katia_Home_18_top_testo_large.jpg"
+                                    alt="">
+                                <span>Cooking videos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-3 col-sm-6 mt-3 gallery-card">
+                        <img src="https://img.freepik.com/free-photo/side-view-woman-reading-indoors_23-2150059001.jpg?size=626&ext=jpg"
+                            alt="">
+                        <span>World Book Day inspiration</span>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-3 gallery-card">
+                        <img src="https://img.freepik.com/free-photo/ppaer-circle-with-lavender-copy-space_23-2148317456.jpg?size=626&ext=jpg"
+                            alt="">
+                        <span>Lavender backgrounds</span>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-3 gallery-card">
+                        <img src="https://media.istockphoto.com/id/1363398400/photo/woman-traveler-in-europa-alhambra-in-spain.jpg?s=612x612&w=0&k=20&c=Z14eQ_IJywp7COkEQvAhxhiOagmqupQaO_RuRg5kEzM="
+                            alt="">
+                        <span>Traveling videos</span>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-3 gallery-card">
+                        <img src="https://img.freepik.com/free-photo/portrait-young-women-2000s-fashion-style-posing-with-tv-camera_23-2149442841.jpg?size=626&ext=jpg"
+                            alt="">
+                        <span>Y2K</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-page">
+        <div class="container">
+            <div class="row page-title">
+                <div class="col-sm-8 cards-title-left">
+                    <h2>Unlock your inner creator</h2>
+                    <p class="mt-1">Get the inspiration you need with these collections carefully selected to boost your
+                        project’s engagement.</p>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-end align-items-end cards-title-right">
+                    <p class="text-end blue-text fw-bolder card-next-i">Explore<span class="card-next-i-span"><i
+                                class="fa-solid fa-arrow-right"></i></span></p>
+                </div>
+            </div>
+            <div class="row mt-5 d-flex justify-content-evenly">
+                <div class="col-3 mt-4 card-wrapper">
+                    <div class="card-wrap card-wrap1">
+                        <img class="card-wrapper-img"
+                            src="https://img.freepik.com/premium-photo/young-boy-lit-candle-front-secret-door-digital-art-style-illustration-painting-fantasy-illustration-boy-near-secret-door_743201-6938.jpg?size=626&ext=jpg"
+                            alt="">
+                        <div class="card-description">
+                            <p>Curator's choice Photos</p>
+                            <span>120 resources</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mt-4 card-wrapper">
+                    <div class="card-wrap card-wrap2">
+                        <img class="card-wrapper-img"
+                            src="https://img.freepik.com/free-vector/world-book-day-illustration_23-2149323889.jpg?size=626&ext=jpg"
+                            alt="">
+                        <div class="card-description">
+                            <p>World Book Day</p>
+                            <span>130 resources</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mt-4 card-wrapper">
+                    <div class="card-wrap card-wrap3">
+                        <img class="card-wrapper-img"
+                            src="https://img.freepik.com/free-psd/3d-landscape-with-fairytale-elements_23-2150048957.jpg?size=626&ext=jpg"
+                            alt="">
+                        <div class="card-description">
+                            <p>3D Fantasy</p>
+                            <span>90 resources</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mt-4 card-wrapper">
+                    <div class="card-wrap card-wrap4">
+                        <img class="card-wrapper-img"
+                            src="https://img.freepik.com/premium-psd/flat-design-nature-template_23-2149942438.jpg?size=626&ext=jpg"
+                            alt="">
+                        <div class="card-description">
+                            <p>Earth Day</p>
+                            <span>40 resources</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service-page">
+        <div class="container">
+            <div class="row page-title">
+                <h2 class="text-center">The smartest choice for <span class="blue-text">creatives like you</span></h2>
+                <p class="text-center mt-1">Whether you’re looking for designs or photographs, you’ll find the perfect
+                    asset on Freepik. </p>
+            </div>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-lg-6">
+                    <div class="row mt-5">
+                        <div class="col-1">
+                            <div class="service-icon-div">
+                                <i class="fa-regular fa-star service-icon "></i>
+                            </div>
+                        </div>
+                        <div class="col-10 ms-3">
+                            <h4>High-quality stock content</h4>
+                            <p class="service-p">
+                                Download scroll-stopping images of the best quality to make your projects look
+                                professional.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-1">
+                            <div class="service-icon-div">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                        <div class="col-10 ms-3">
+                            <h4>Ready-to-use assets</h4>
+                            <p class="service-p">
+                                Access thousands of images and designs ready-to-publish and get your project ready
+                                double quick</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-1">
+                            <div class="service-icon-div">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="col-10 ms-3">
+                            <h4>Guaranteed search results</h4>
+                            <p class="service-p">
+                                There’s an image and style for every project, whatever your needs are.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-1">
+                            <div class="service-icon-div">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                            </div>
+                        </div>
+                        <div class="col-10 ms-3">
+                            <h4>Fresh content everyday</h4>
+                            <p class="service-p">
+                                Our library is updated on a daily basis so you can find the newest and trendiest photos
+                                and designs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="https://freepik.cdnpk.net/img/home/resources.webp" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="limit">
+        <div class="container">
+            <div class="row page-title">
+                <h2 class="text-center">Endless creativity, different plans</h2>
+                <p class="text-center mt-1">We know there are multiple kinds of creators. Freepik offers you different
+                    options to <br> fit your creative needs, whatever they are.</p>
+            </div>
+            <div class="row d-flex justify-content-center gap-2">
+                <div class="col-lg-5 border border-primary  limit-box">
+                    <h2>Free</h2>
+                    <h1 class="fw-bold">0 EUR</h1>
+                    <p>free forever</p>
+                    <p>For those who look for visual assets from time to time and want to make the most of Freepik's
+                        free features.</p>
+                    <ul class="mt-4">
+                        <li>Browse as a guest: 3 daily downloads</li>
+                        <li>
+                            <span class="fw-bold">Sign up for free:</span>
+                            <span class="blue-text">10 daily downloads</span>
+                        </li>
+                    </ul>
+                    <div class="limit-btn d-flex justify-content-center ">
+                        <button class="btn btn-primary px-5 py-2">Sign up for free</button>
+                    </div>
+                </div>
+                <div class="col-lg-5  border border-secondary  limit-box" style="border: 2px solid #E3E9ED !important;">
+                    <h2>Premium</h2>
+                    <h1 class="fw-bold">15 EUR <span style="font-size: 17px; color: #374957;">/month</span></h1>
+                    <p>per person, billed as one payment</p>
+                    <p>The go-to plan for professionals. Now including Flaticon, the best-in-class icon library.</p>
+                    <ul class="mt-4">
+                        <li>
+                            <span class="fw-bold">Full access to Freepik and Flaticon extensive library</span>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Unlimited downloads</span>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Exclusive assets by worldwide professionals</span>
+                        </li>
+                        <li>
+                            <span class="fw-bold">Unique curated collections</span>
+                        </li>
+                    </ul>
+                    <div class=" d-flex justify-content-center mt-5">
+                        <button class="btn btn-outline-primary px-5 py-2">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="join-page">
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8 py-5">
+                    <h2>
+                        Join Freepik’s
+                        <span class="blue-text"> creator community</span>
+                    </h2>
+                    <p style="color:#374957; letter-spacing: .5px;" class="mt-4">Behind every stock image, there’s a
+                        creative mind. You <br> can also create content and sell it on Freepik</p>
+                    <button class="btn btn-primary px-4 py-2 mt-3">Sell content</button>
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://freepik.cdnpk.net/img/home/community.png" alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #1D262D;" class="mt-5 footer">
+        <div class="container" style="background-color: #1D262D;">
+            <div class="row fffl" style="justify-content: center; margin: auto;">
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <ul style="list-style: none;">
+                        <br>
+                        <li style="color: white;">CONTENT</li>
+                        <li> Calendar of festivities</li>
+                        <li> New assets</li>
+                        <li>The most popular content</li>
+                        <li> Search trends</li>
+                        <li> Blog</li>
+                    </ul>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <ul class="p-4" style="list-style: none;">
+                        <li style="color: white;">INFORMATION</li>
+                        <li>
+                            Pricing
+                        </li>
+                        <li> About us</li>
+                        <li> Press room</li>
+                        <li> Business</li>
+                        <li> Jobs</li>
+                        <li> Sell your content</li>
+                    </ul>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <ul class="p-4" style="list-style: none;">
+                        <li style="color: white;">
+
+                            Legal
+                        </li>
+                        <li>About us</li>
+                        <li>Terms and conditions</li>
+                        <li>License agreement</li>
+                        <li>Privacy policy</li>
+                        <li>Copyright information</li>
+                        <li>Cookies policy</li>
+                        <br>
+                        <li style="font-size: 20px;color: white;">support</li>
+                        <li>Faq</li>
+                        <li>contact</li>
+                    </ul>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <br>
+                    <p class="text text-white">
+                        Sedical media
+                    </p>
+                    <ul class="list-inline text-start">
+                        <li class="list-inline-item">
+                            <p class="p-2" style="background-color:red; width: 45px;height: 40px; border-radius: 7px;">
+                                <svg style="margin-left: 5px;" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.80196 4.48753C6.30479 4.48753 4.29055 6.50222 4.29055 8.99995C4.29055 11.4977 6.30479 13.5124 8.80196 13.5124C11.2991 13.5124 13.3134 11.4977 13.3134 8.99995C13.3134 6.50222 11.2991 4.48753 8.80196 4.48753ZM8.80196 11.9336C7.18822 11.9336 5.86896 10.618 5.86896 8.99995C5.86896 7.38192 7.18429 6.06629 8.80196 6.06629C10.4196 6.06629 11.735 7.38192 11.735 8.99995C11.735 10.618 10.4157 11.9336 8.80196 11.9336ZM14.5502 4.30295C14.5502 4.88811 14.079 5.35546 13.4979 5.35546C12.9129 5.35546 12.4456 4.88419 12.4456 4.30295C12.4456 3.72172 12.9168 3.25045 13.4979 3.25045C14.079 3.25045 14.5502 3.72172 14.5502 4.30295ZM17.5382 5.37117C17.4714 3.96128 17.1494 2.71241 16.1168 1.68347C15.0881 0.654531 13.8395 0.332496 12.4299 0.261805C10.9772 0.179333 6.62282 0.179333 5.17006 0.261805C3.76442 0.328569 2.51583 0.650604 1.48319 1.67955C0.450552 2.70849 0.132515 3.95735 0.0618405 5.36724C-0.0206135 6.82032 -0.0206135 11.1757 0.0618405 12.6287C0.128589 14.0386 0.450552 15.2875 1.48319 16.3164C2.51583 17.3454 3.76049 17.6674 5.17006 17.7381C6.62282 17.8206 10.9772 17.8206 12.4299 17.7381C13.8395 17.6713 15.0881 17.3493 16.1168 16.3164C17.1455 15.2875 17.4675 14.0386 17.5382 12.6287C17.6206 11.1757 17.6206 6.82425 17.5382 5.37117ZM15.6613 14.1879C15.3551 14.9576 14.7622 15.5506 13.9887 15.8609C12.8304 16.3204 10.082 16.2143 8.80196 16.2143C7.52196 16.2143 4.76957 16.3164 3.61521 15.8609C2.84564 15.5545 2.25276 14.9615 1.94258 14.1879C1.48319 13.0293 1.5892 10.2802 1.5892 8.99995C1.5892 7.71967 1.48712 4.96666 1.94258 3.81205C2.24883 3.0423 2.84172 2.44929 3.61521 2.13903C4.7735 1.67954 7.52196 1.78558 8.80196 1.78558C10.082 1.78558 12.8344 1.68347 13.9887 2.13903C14.7583 2.44536 15.3512 3.03838 15.6613 3.81205C16.1207 4.97059 16.0147 7.71967 16.0147 8.99995C16.0147 10.2802 16.1207 13.0332 15.6613 14.1879Z"
+                                        fill="#4E4E4E" fill-opacity="0.45"></path>
+                                </svg>
+                            </p>
+                        </li>
+                        <li class="list-inline-item" class="list-inline-item">
+                            <p class="p-2"
+                                style="background-color:green; width: 45px;height: 40px; border-radius: 7px;">
+                                <svg style="margin-left: 5px;" id="Capa_1" enable-background="new 0 0 512 512" width="18" height="18"
+                                    viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+                                    <g>
+                                        <path fill="#4E4E4E" fill-opacity="0.45"
+                                            d="m480.32 128.39c-29.22 0-56.18-9.68-77.83-26.01-24.83-18.72-42.67-46.18-48.97-77.83-1.56-7.82-2.4-15.89-2.48-24.16h-83.47v228.08l-.1 124.93c0 33.4-21.75 61.72-51.9 71.68-8.75 2.89-18.2 4.26-28.04 3.72-12.56-.69-24.33-4.48-34.56-10.6-21.77-13.02-36.53-36.64-36.93-63.66-.63-42.23 33.51-76.66 75.71-76.66 8.33 0 16.33 1.36 23.82 3.83v-62.34-22.41c-7.9-1.17-15.94-1.78-24.07-1.78-46.19 0-89.39 19.2-120.27 53.79-23.34 26.14-37.34 59.49-39.5 94.46-2.83 45.94 13.98 89.61 46.58 121.83 4.79 4.73 9.82 9.12 15.08 13.17 27.95 21.51 62.12 33.17 98.11 33.17 8.13 0 16.17-.6 24.07-1.77 33.62-4.98 64.64-20.37 89.12-44.57 30.08-29.73 46.7-69.2 46.88-111.21l-.43-186.56c14.35 11.07 30.04 20.23 46.88 27.34 26.19 11.05 53.96 16.65 82.54 16.64v-60.61-22.49c.02.02-.22.02-.24.02z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </p>
+                        </li>
+                        <li class="list-inline-item" class="list-inline-item">
+                            <p class="p-2"
+                                style="background-color:skyblue; width: 45px;height: 40px; border-radius: 7px;">
+                                <svg style="margin-left: 5px;" enable-background="new 0 0 300 300" width="18" height="18" fill="none"
+                                    viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+                                    <path fill="#4E4E4E" fill-opacity="0.45"
+                                        d="m5.299 144.645 69.126 25.8 26.756 86.047c1.712 5.511 8.451 7.548 12.924 3.891l38.532-31.412c4.039-3.291 9.792-3.455 14.013-.391l69.498 50.457c4.785 3.478 11.564.856 12.764-4.926l50.911-244.891c1.31-6.316-4.896-11.585-10.91-9.259l-283.695 109.441c-7.001 2.7-6.94 12.612.081 15.243zm91.57 12.066 135.098-83.207c2.428-1.491 4.926 1.792 2.841 3.726l-111.495 103.64c-3.919 3.648-6.447 8.53-7.163 13.829l-3.798 28.146c-.503 3.758-5.782 4.131-6.819.494l-14.607-51.325c-1.673-5.854.765-12.107 5.943-15.303z">
+                                    </path>
+                                </svg>
+                            </p>
+                        </li>
+                        <li class="list-inline-item" class="list-inline-item">
+                            <p class="p-2"
+                                style="background-color: blue; color: white; width: 45px; height: 40px; border-radius: 7px;">
+                                <svg style="margin-left: 5px;" width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.9709 10.1L9.46872 6.91476H6.35612V4.8478C6.35612 3.97639 6.79093 3.12698 8.18496 3.12698H9.6V0.415139C9.6 0.415139 8.31589 0.199951 7.08815 0.199951C4.52483 0.199951 2.84933 1.72551 2.84933 4.4872V6.91476H0V10.1H2.84933V17.8H6.35612V10.1H8.9709Z"
+                                        fill="#4E4E4E" fill-opacity="0.45"></path>
+                                </svg>
+                            </p>
+                        </li>
+                        <li style="text-align: left; font-size: 13px;">Get exclusive assets sent straight to your inbox</li>
+                    </ul>
+                    <button class="btn btn-primary  px-4 py-2 m-2 text-items-center justify-content-center">Sing
+                        up</button>
+                </div>
+                <hr style="width: 100%; border-bottom: 2px solid white;">
+                <div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"> <img src="./assets/images/freepikcompany-footer.svg" style="width: 250px;">
+                        </li>
+                        <li class="list-inline-item"> Copyright © 2010-2023 Freepik Company S.L. All rights reserved.
+                        </li>
+                        <li class="list-inline-item text-end">
+                            <div class="dropup text-end">
+                                <!-- <button class="btn button-white dropdown-toggle"
+                                    style="background-color: white !important;" type="button"
+                                    data-toggle="dropdown">English
+                                    <span class="caret"></span></button> -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Uzbekistan</a></li>
+                                    <li><a href="#">Rassiya</a></li>
+                                    <li><a href="#">Turkiya</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Hind</a></li>
+                                </ul>
+                            </div>
+                </div>
+
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
